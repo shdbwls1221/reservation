@@ -46,10 +46,10 @@ function productAjax(url, isMore, start) {
 		
 		makeProductList(data, isMore);
 		
-		// 더보기 이벤트 + 더 이상 받아올 상품이 없다 -> 더보기 칸을 지운다.
+		// 더보기 이벤트 && 더 이상 받아올 상품이 없다 -> 더보기 칸을 지운다.
 		if(isMore && (start+4)>=data.totalCount)
 			more.classList.toggle("invisible");
-		// 더보기 이벤트 + 상품이 있을 때
+		// 더보기 이벤트 && 상품이 있을 때
 		else if(more.className==="btn invisible")
 			more.classList.toggle("invisible");
 	});
