@@ -9,7 +9,7 @@
 	<name>reservation Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-		<spring.version>4.3.20.RELEASE</spring.version>
+		<spring.version>5.2.20.RELEASE</spring.version>
 		<!-- Json이용하기 위한 Jackson라이브러리 -->
 		<jackson2.version>2.8.6</jackson2.version>
 	</properties>
